@@ -2,60 +2,65 @@
 layout: default
 ---
 
-<div class="dashboard">
-    {% for customer in site.data.customers %}
-    <h2>{{ customer.name }}</h2>
-    <div class="tile-grid">
-        {% for env in customer.environments %}
-        <a href="{{ env.url }}" class="tile">
-            <div class="tile-title">{{ env.name }}</div>
-            <div class="tile-desc">{{ env.description }}</div>
-        </a>
+<div class="page__content">
+
+    {% for group in site.data.customers.groups %}
+    <h2 class="group-title">{{ group.name }}</h2>
+    <div class="tiles">
+        {% for tile in group.tiles %}
+        <div class="tile">
+            <a href="{{ tile.url }}" target="_blank" rel="noopener noreferrer">
+                <div class="tile-title">{{ tile.title }}</div>
+                <div class="tile-desc">{{ tile.desc }}</div>
+            </a>
+        </div>
         {% endfor %}
     </div>
     {% endfor %}
+
 </div>
 
 <style>
-    .dashboard {
-        max-width: 960px;
-        margin: 2rem auto;
-        padding: 0 1rem;
+    .group-title {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: var(--text-color);
     }
 
-    .tile-grid {
+    .tiles {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 1rem;
+        margin-bottom: 2rem;
     }
 
     .tile {
-        border: 1px solid #4c8ed9;
-        background: #0d1117;
-        padding: 1rem;
-        border-radius: 8px;
-        text-decoration: none;
-        transition: border-color 0.2s ease;
+        background: #1e1e1e;
+        border-radius: 10px;
+        padding: 1.2rem;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .tile:hover {
-        border-color: #58a6ff;
+        transform: translateY(-4px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .tile a {
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
     }
 
     .tile-title {
         font-weight: 600;
-        font-size: 1rem;
-        color: #fff;
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
     }
 
     .tile-desc {
-        font-size: 0.85rem;
-        color: #aaa;
-    }
-
-    h2 {
-        color: #fff;
-        margin-top: 2rem;
-        font-size: 1.25rem;
+        font-size: 0.9rem;
+        color: #bbb;
     }
 </style>
