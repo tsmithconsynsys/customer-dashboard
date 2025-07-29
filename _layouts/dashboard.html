@@ -4,8 +4,8 @@ layout: default
 
 <nav class="dashboard-nav">
     <ul>
-        <li><a href="/">Main Dashboard</a></li>
-        <li><a href="/internal/">Internal</a></li>
+        <li><a href="{{ site.baseurl }}/">Main Dashboard</a></li>
+        <li><a href="{{ site.baseurl }}/internal/">Internal</a></li>
     </ul>
 </nav>
 
@@ -37,27 +37,36 @@ layout: default
 
 <style>
     nav.dashboard-nav {
-        background-color: #333;
-        padding: 0.5rem 1rem;
+        background-color: #2a2a2a;
+        padding: 0.75rem 1rem;
+        text-align: center;
         margin-bottom: 1rem;
     }
 
     nav.dashboard-nav ul {
-        margin: 0;
-        padding: 0;
         list-style: none;
-        display: flex;
-        gap: 1rem;
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        gap: 1.5rem;
     }
 
-    nav.dashboard-nav li a {
-        color: white;
+    nav.dashboard-nav li {
+        display: inline;
+    }
+
+    nav.dashboard-nav a {
+        color: #fff;
         text-decoration: none;
         font-weight: 600;
+        font-size: 0.95rem;
+        padding: 0.5rem 0.75rem;
+        border-radius: 4px;
+        transition: background-color 0.2s ease;
     }
 
-    nav.dashboard-nav li a:hover {
-        text-decoration: underline;
+    nav.dashboard-nav a:hover {
+        background-color: #444;
     }
 
     .page-header {
