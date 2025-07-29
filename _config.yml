@@ -22,9 +22,8 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "dashboard"
-
-header:
-  nav: navigation
+      layout: "default"
+      header:
+        nav: navigation
 
 minimal_mistakes_skin: "dark"
