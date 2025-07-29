@@ -8,7 +8,6 @@ layout: default
 </div>
 
 <div class="page__content">
-
     <div class="group-grid">
         {% for group in site.data.customers.groups %}
         <div class="group-block">
@@ -26,7 +25,6 @@ layout: default
         </div>
         {% endfor %}
     </div>
-
 </div>
 
 <style>
@@ -110,6 +108,10 @@ layout: default
         display: block;
     }
 
+    .tile a:hover {
+        text-decoration: none;
+    }
+
     .tile-title {
         font-weight: 600;
         font-size: 0.85rem;
@@ -117,18 +119,18 @@ layout: default
     }
 
     .tile-desc {
-        display: block;
-        visibility: hidden;
+        font-size: 0.7rem;
+        color: #666;
+        margin-top: 0.1rem;
         opacity: 0;
-        height: 0;
+        max-height: 0;
         overflow: hidden;
-        transition: opacity 0.2s ease, height 0.2s ease;
+        transition: opacity 0.2s ease, max-height 0.2s ease;
     }
 
     .tile:hover .tile-desc {
-        visibility: visible;
         opacity: 1;
-        height: auto;
+        max-height: 100px;
     }
 
     .page__hero--overlay {
