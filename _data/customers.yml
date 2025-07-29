@@ -10,6 +10,9 @@ groups:
       - title: Sisyphus
         url: https://acme.prod.com
         desc: Monitoring
+      - title: AWS
+        url: d-926761a594.awsapps.com
+        desc: 161718427513
 
   - name: Aquasyn
     tiles:
@@ -22,6 +25,9 @@ groups:
       - title: Sisyphus
         url: https://acme.prod.com
         desc: Monitoring
+      - title: AWS
+        url: d-926761a594.awsapps.com
+        desc: 161718427513
 
   - name: Calmoseptine
     tiles:
@@ -34,3 +40,6 @@ groups:
       - title: Sisyphus
         url: https://acme.prod.com
         desc: Monitoring
+      - title: AWS
+        url: d-926761a594.awsapps.com
+        desc: 161718427513
