@@ -4,7 +4,7 @@ title: "ConSynSys Internal Environments"
 excerpt: "Access internal tools and environments"
 permalink: /internal/
 data_file: internal
+show_title: false
 ---
 
-{% include page__hero.html %}
 {% include tiles.html %}
