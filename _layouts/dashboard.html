@@ -9,19 +9,23 @@ layout: default
 
 <div class="page__content">
 
-    {% for group in site.data.customers.groups %}
-    <h2 class="group-title">{{ group.name }}</h2>
-    <div class="tiles">
-        {% for tile in group.tiles %}
-        <div class="tile">
-            <a href="{{ tile.url }}" target="_blank" rel="noopener noreferrer">
-                <div class="tile-title">{{ tile.title }}</div>
-                <div class="tile-desc">{{ tile.desc }}</div>
-            </a>
+    <div class="group-grid">
+        {% for group in site.data.customers.groups %}
+        <div class="group-block">
+            <h2 class="group-title">{{ group.name }}</h2>
+            <div class="tiles">
+                {% for tile in group.tiles %}
+                <div class="tile">
+                    <a href="{{ tile.url }}" target="_blank" rel="noopener noreferrer">
+                        <div class="tile-title">{{ tile.title }}</div>
+                        <div class="tile-desc">{{ tile.desc }}</div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
         {% endfor %}
     </div>
-    {% endfor %}
 
 </div>
 
@@ -56,9 +60,22 @@ layout: default
         padding: 1.5rem;
     }
 
+    .group-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .group-block {
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 1rem;
+    }
+
     .group-title {
         font-size: 1rem;
-        margin-top: 1.2rem;
+        margin-top: 0;
         margin-bottom: 0.8rem;
         color: #333;
     }
