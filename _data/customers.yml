@@ -1,0 +1,27 @@
+groups:
+  - name: Acme Co
+    tiles:
+      - title: Staging
+        url: https://acme.staging.com
+        desc: Staging environment
+      - title: Production
+        url: https://acme.prod.com
+        desc: Production environment
+
+  - name: Beta Inc
+    tiles:
+      - title: Dev
+        url: https://beta.dev.com
+        desc: Development environment
+      - title: Prod
+        url: https://beta.prod.com
+        desc: Production environment
+
+  - name: Gamma Labs
+    tiles:
+      - title: Dashboard
+        url: https://gamma.dashboard.com
+        desc: Main interface
+      - title: API
+        url: https://gamma.api.com
+        desc: API Explorer

@@ -1,0 +1,26 @@
+title: Customer Dashboard
+description: Centralized dashboard for accessing customer environments.
+baseurl: "/customer-dashboard" # change to "" if your repo is named <username>.github.io
+url: "https://tsmithconsynsys.github.io"
+
+# Use GitHub Pages supported theme via remote_theme
+remote_theme: mmistakes/minimal-mistakes
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Optional: Custom collections (not needed for this use case)
+# collections:
+#   customers:
+#     output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "dashboard"
+
+minimal_mistakes_skin: "dark"

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="page__content">
+    <h1>{{ page.title | default: "Customer Dashboard" }}</h1>
+    {% for group in site.data.customers.groups %}
+    <h2>{{ group.name }}</h2>
+    <div class="tiles">
+        {% for tile in group.tiles %}
+        <div class="tile">
+            <a href="{{ tile.url }}" target="_blank" rel="noopener noreferrer">
+                <strong>{{ tile.title }}</strong><br />
+                <small>{{ tile.desc }}</small>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+<style>
+    .tiles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .tile {
+        background: #2a2a2a;
+        padding: 1rem;
+        border-radius: 8px;
+        width: 200px;
+    }
+
+    .tile a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .tile a:hover {
+        text-decoration: underline;
+    }
+</style>
