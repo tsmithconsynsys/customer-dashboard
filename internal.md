@@ -3,5 +3,6 @@ layout: dashboard
 title: ""
 header:
   show_title: false
-permalink: /
+permalink: /internal/
+data_file: internal
 ---
