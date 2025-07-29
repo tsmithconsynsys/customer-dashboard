@@ -21,11 +21,20 @@ layout: default
 </div>
 
 <style>
+    body {
+        background-color: #f5f5f5;
+    }
+
+    .page__content {
+        background-color: #f5f5f5;
+        padding: 1.5rem;
+    }
+
     .group-title {
         font-size: 1rem;
         margin-top: 1.2rem;
         margin-bottom: 0.8rem;
-        color: var(--text-color);
+        color: #333;
     }
 
     .tiles {
@@ -36,24 +45,24 @@ layout: default
     }
 
     .tile {
-        background: var(--background-color);
-        border: 1px solid rgba(255, 255, 255, 0.25);
+        background-color: #ffffff;
+        border: 1px solid #ddd;
         border-radius: 6px;
         padding: 0.3rem 0.5rem;
         display: inline-block;
         min-width: 0;
         width: fit-content;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
-        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
     }
 
     .tile:hover {
         transform: translateY(-3px) scale(1.015);
-        box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     }
 
     .tile a {
-        color: #ffffff;
+        color: #333;
         text-decoration: none;
         display: block;
     }
@@ -66,6 +75,6 @@ layout: default
 
     .tile-desc {
         font-size: 0.7rem;
-        color: #aaa;
+        color: #666;
     }
 </style>
