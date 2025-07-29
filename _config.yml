@@ -1,4 +1,4 @@
-title: ConSynSys Customer Environments
+title: ConSynSys Environment Dashboard
 description: Centralized dashboard for accessing customer environments.
 baseurl: "/customer-dashboard" # change to "" if your repo is named <username>.github.io
 url: "https://tsmithconsynsys.github.io"
@@ -25,10 +25,3 @@ defaults:
       layout: "dashboard"
 
 minimal_mistakes_skin: "dark"
-
-header:
-  nav:
-    - title: "Customer Environments"
-      url: "/customer-dashboard/"
-    - title: "Internal Environments"
-      url: "/customer-dashboard/internal/"
