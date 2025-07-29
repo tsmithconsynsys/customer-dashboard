@@ -25,3 +25,6 @@ defaults:
       layout: "dashboard"
 
 minimal_mistakes_skin: "dark"
+
+navigation:
+  header: navigation
