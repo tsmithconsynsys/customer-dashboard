@@ -1,6 +1,7 @@
 ---
 layout: dashboard
-title: ""
+title: "ConSynSys Dev Systems"
+subtitle: Internal tools and environments
 header:
   show_title: false
 permalink: /internal/
