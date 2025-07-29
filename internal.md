@@ -1,6 +1,6 @@
 ---
 layout: dashboard
-title: "ConSynSys Dev Systems"
+title: "ConSynSys Dev Environments"
 subtitle: Internal tools and environments
 header:
   show_title: false
