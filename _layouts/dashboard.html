@@ -3,43 +3,64 @@ layout: default
 ---
 
 <div class="page__content">
-    <h1>{{ page.title | default: "Customer Dashboard" }}</h1>
+
     {% for group in site.data.customers.groups %}
-    <h2>{{ group.name }}</h2>
+    <h2 class="group-title">{{ group.name }}</h2>
     <div class="tiles">
         {% for tile in group.tiles %}
         <div class="tile">
             <a href="{{ tile.url }}" target="_blank" rel="noopener noreferrer">
-                <strong>{{ tile.title }}</strong><br />
-                <small>{{ tile.desc }}</small>
+                <div class="tile-title">{{ tile.title }}</div>
+                <div class="tile-desc">{{ tile.desc }}</div>
             </a>
         </div>
         {% endfor %}
     </div>
     {% endfor %}
+
 </div>
 
 <style>
+    .group-title {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: var(--text-color);
+    }
+
     .tiles {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 1rem;
         margin-bottom: 2rem;
     }
 
     .tile {
-        background: #2a2a2a;
-        padding: 1rem;
-        border-radius: 8px;
-        width: 200px;
+        background: #1e1e1e;
+        border-radius: 10px;
+        padding: 1.2rem;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .tile:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     }
 
     .tile a {
-        color: #fff;
+        color: #ffffff;
         text-decoration: none;
+        display: block;
     }
 
-    .tile a:hover {
-        text-decoration: underline;
+    .tile-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .tile-desc {
+        font-size: 0.9rem;
+        color: #bbb;
     }
 </style>

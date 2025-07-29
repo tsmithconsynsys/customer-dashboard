@@ -1,5 +1,5 @@
 ---
 layout: dashboard
-title: Customer Dashboard
+title: Environments Dashboard
 permalink: /
 ---
