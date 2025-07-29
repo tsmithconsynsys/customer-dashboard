@@ -4,7 +4,7 @@ baseurl: "/customer-dashboard" # change to "" if your repo is named <username>.g
 url: "https://tsmithconsynsys.github.io"
 
 # Use GitHub Pages supported theme via remote_theme
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 plugins:
   - jekyll-remote-theme
