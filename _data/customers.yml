@@ -3,11 +3,11 @@ groups:
     tiles:
       - title: ProCaaSo
         url: https://acme.staging.com
-        desc: ProCaaSo
+        desc: ProCaaSo Login
       - title: Opensearch
         url: https://acme.prod.com
         desc: Opensearch logging
-      - title: Sisyphpus
+      - title: Sisyphus
         url: https://acme.prod.com
         desc: Monitoring
 
@@ -15,11 +15,11 @@ groups:
     tiles:
       - title: ProCaaSo
         url: https://acme.staging.com
-        desc: ProCaaSo
+        desc: ProCaaSo Login
       - title: Opensearch
         url: https://acme.prod.com
         desc: Opensearch logging
-      - title: Sisyphpus
+      - title: Sisyphus
         url: https://acme.prod.com
         desc: Monitoring
 
@@ -31,6 +31,6 @@ groups:
       - title: Opensearch
         url: https://acme.prod.com
         desc: Opensearch logging
-      - title: Sisyphpus
+      - title: Sisyphus
         url: https://acme.prod.com
         desc: Monitoring
