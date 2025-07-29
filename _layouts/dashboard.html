@@ -15,9 +15,8 @@ layout: default
             <div class="tiles">
                 {% for tile in group.tiles %}
                 <div class="tile">
-                    <a href="{{ tile.url }}" target="_blank" rel="noopener noreferrer">
+                    <a href="{{ tile.url }}" title="{{ tile.desc }}" target="_blank" rel="noopener noreferrer">
                         <div class="tile-title">{{ tile.title }}</div>
-                        <div class="tile-desc">{{ tile.desc }}</div>
                     </a>
                 </div>
                 {% endfor %}
@@ -89,10 +88,7 @@ layout: default
         background-color: #ffffff;
         border: 1px solid #ddd;
         border-radius: 6px;
-        padding: 0.3rem 0.5rem;
-        display: inline-block;
-        min-width: 0;
-        width: fit-content;
+        padding: 0.4rem 0.6rem;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
         box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
     }
@@ -108,35 +104,12 @@ layout: default
         display: block;
     }
 
-    .tile a:hover {
-        text-decoration: none;
-    }
-
     .tile-title {
         font-weight: 600;
         font-size: 0.85rem;
-        margin-bottom: 0.2rem;
     }
 
-    .tile-desc {
-        font-size: 0.7rem;
-        color: #666;
-        margin-top: 0.1rem;
-        opacity: 0;
-        max-height: 0;
-        overflow: hidden;
-        transition: opacity 0.2s ease, max-height 0.2s ease;
-    }
-
-    .tile:hover .tile-desc {
-        opacity: 1;
-        max-height: 100px;
-    }
-
-    .page__hero--overlay {
-        display: none !important;
-    }
-
+    .page__hero--overlay,
     .masthead {
         display: none !important;
     }
