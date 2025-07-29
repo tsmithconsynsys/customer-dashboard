@@ -13,7 +13,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-navigation: navigation
 show_sidebar: true
 
 sidebar:
