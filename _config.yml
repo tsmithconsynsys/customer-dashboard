@@ -13,6 +13,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
+navigation: navigation
+
 # Optional: Custom collections (not needed for this use case)
 # collections:
 #   customers:
