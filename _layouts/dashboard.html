@@ -1,46 +1,61 @@
+---
+layout: default
+---
+
+<div class="dashboard">
+    {% for customer in site.data.customers %}
+    <h2>{{ customer.name }}</h2>
+    <div class="tile-grid">
+        {% for env in customer.environments %}
+        <a href="{{ env.url }}" class="tile">
+            <div class="tile-title">{{ env.name }}</div>
+            <div class="tile-desc">{{ env.description }}</div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
 <style>
-    .group-title {
-        font-size: 1.5rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        color: var(--text-color);
+    .dashboard {
+        max-width: 960px;
+        margin: 2rem auto;
+        padding: 0 1rem;
     }
 
-    .tiles {
+    .tile-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 1rem;
-        margin-bottom: 2rem;
     }
 
     .tile {
-        background: transparent;
         border: 1px solid #4c8ed9;
-        /* or use #ffffff for white */
-        border-radius: 6px;
-        padding: 0.8rem 1rem;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        background: #0d1117;
+        padding: 1rem;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: border-color 0.2s ease;
     }
 
     .tile:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 2px 8px rgba(76, 142, 217, 0.3);
-    }
-
-    .tile a {
-        color: var(--text-color);
-        text-decoration: none;
-        display: block;
+        border-color: #58a6ff;
     }
 
     .tile-title {
         font-weight: 600;
         font-size: 1rem;
-        margin-bottom: 0.2rem;
+        color: #fff;
     }
 
     .tile-desc {
         font-size: 0.85rem;
         color: #aaa;
+    }
+
+    h2 {
+        color: #fff;
+        margin-top: 2rem;
+        font-size: 1.25rem;
     }
 </style>
