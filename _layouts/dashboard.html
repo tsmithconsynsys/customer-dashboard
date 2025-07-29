@@ -117,8 +117,18 @@ layout: default
     }
 
     .tile-desc {
-        font-size: 0.7rem;
-        color: #666;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: opacity 0.2s ease, height 0.2s ease;
+    }
+
+    .tile:hover .tile-desc {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
     }
 
     .page__hero--overlay {
