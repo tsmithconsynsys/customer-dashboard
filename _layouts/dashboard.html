@@ -9,7 +9,9 @@ layout: default
 
 <div class="page__content">
     <div class="group-grid">
-        {% for group in site.data.customers.groups %}
+        {% assign data_file = page.data_file | default: 'customers' %}
+        {% assign groups = site.data[data_file].groups %}
+        {% for group in groups %}
         <div class="group-block">
             <h2 class="group-title">{{ group.name }}</h2>
             <div class="tiles">
@@ -24,93 +26,92 @@ layout: default
         </div>
         {% endfor %}
     </div>
-</div>
 
-<style>
-    .page-header {
-        background-color: #2a2a2a;
-        color: #fff;
-        text-align: center;
-        padding: 1.5rem;
-        margin-bottom: 1rem;
-        border-bottom: 1px solid #444;
-    }
+    <style>
+        .page-header {
+            background-color: #2a2a2a;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #444;
+        }
 
-    .page-title {
-        margin: 0;
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
+        .page-title {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
 
-    .page-subtitle {
-        margin: 0.4rem 0 0;
-        font-size: 0.9rem;
-        color: #ccc;
-    }
+        .page-subtitle {
+            margin: 0.4rem 0 0;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
 
-    body {
-        background-color: #f5f5f5;
-    }
+        body {
+            background-color: #f5f5f5;
+        }
 
-    .page__content {
-        background-color: #f5f5f5;
-        padding: 1.5rem;
-    }
+        .page__content {
+            background-color: #f5f5f5;
+            padding: 1.5rem;
+        }
 
-    .group-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-        gap: 1.5rem;
-    }
+        .group-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 1.5rem;
+        }
 
-    .group-block {
-        background: #ffffff;
-        border: 1px solid #ddd;
-        border-radius: 6px;
-        padding: 1rem;
-    }
+        .group-block {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 1rem;
+        }
 
-    .group-title {
-        font-size: 1rem;
-        margin-top: 0;
-        margin-bottom: 0.8rem;
-        color: #333;
-    }
+        .group-title {
+            font-size: 1rem;
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+            color: #333;
+        }
 
-    .tiles {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.6rem;
-        margin-bottom: 1.5rem;
-    }
+        .tiles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-bottom: 1.5rem;
+        }
 
-    .tile {
-        background-color: #ffffff;
-        border: 1px solid #ddd;
-        border-radius: 6px;
-        padding: 0.4rem 0.6rem;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
-    }
+        .tile {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 0.4rem 0.6rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+        }
 
-    .tile:hover {
-        transform: translateY(-3px) scale(1.015);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    }
+        .tile:hover {
+            transform: translateY(-3px) scale(1.015);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
 
-    .tile a {
-        color: #333;
-        text-decoration: none;
-        display: block;
-    }
+        .tile a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+        }
 
-    .tile-title {
-        font-weight: 600;
-        font-size: 0.85rem;
-    }
+        .tile-title {
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
 
-    .page__hero--overlay,
-    .masthead {
-        display: none !important;
-    }
-</style>
+        .page__hero--overlay,
+        .masthead {
+            display: none !important;
+        }
+    </style>
