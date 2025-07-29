@@ -29,6 +29,6 @@ minimal_mistakes_skin: "dark"
 header:
   nav:
     - title: "Customer Environments"
-      url: /
+      url: "/customer-dashboard/"
     - title: "Internal Environments"
-      url: /internal/
+      url: "/customer-dashboard/internal/"

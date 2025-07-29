@@ -2,17 +2,7 @@
 layout: default
 ---
 
-<nav class="dashboard-nav">
-    <ul>
-        <li><a href="{{ site.baseurl }}/">Main Dashboard</a></li>
-        <li><a href="{{ site.baseurl }}/internal/">Internal</a></li>
-    </ul>
-</nav>
-
-<div class="page-header">
-    <h1 class="page-title">{{ page.title | default: "ConSynSys Environments Dashboard" }}</h1>
-    <p class="page-subtitle">{{ page.subtitle | default: "Links and tools grouped by organization" }}</p>
-</div>
+{% include page__hero.html %}
 
 <div class="page__content">
     <div class="group-grid">
@@ -36,64 +26,6 @@ layout: default
 </div>
 
 <style>
-    nav.dashboard-nav {
-        background-color: #2a2a2a;
-        padding: 0.75rem 1rem;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    nav.dashboard-nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: inline-flex;
-        gap: 1.5rem;
-    }
-
-    nav.dashboard-nav li {
-        display: inline;
-    }
-
-    nav.dashboard-nav a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 0.95rem;
-        padding: 0.5rem 0.75rem;
-        border-radius: 4px;
-        transition: background-color 0.2s ease;
-    }
-
-    nav.dashboard-nav a:hover {
-        background-color: #444;
-    }
-
-    .page-header {
-        background-color: #2a2a2a;
-        color: #fff;
-        text-align: center;
-        padding: 1.5rem;
-        margin-bottom: 1rem;
-        border-bottom: 1px solid #444;
-    }
-
-    .page-title {
-        margin: 0;
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-
-    .page-subtitle {
-        margin: 0.4rem 0 0;
-        font-size: 0.9rem;
-        color: #ccc;
-    }
-
-    body {
-        background-color: #f5f5f5;
-    }
-
     .page__content {
         background-color: #f5f5f5;
         padding: 1.5rem;
@@ -149,10 +81,5 @@ layout: default
     .tile-title {
         font-weight: 600;
         font-size: 0.85rem;
-    }
-
-    .page__hero--overlay,
-    .masthead {
-        display: none !important;
     }
 </style>

@@ -1,9 +1,7 @@
 ---
 layout: dashboard
 title: "ConSynSys Dev Environments"
-subtitle: Internal tools and environments
-header:
-  show_title: false
+subtitle: "Internal tools and environments"
 permalink: /internal/
 data_file: internal
 ---
