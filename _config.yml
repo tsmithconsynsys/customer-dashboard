@@ -25,3 +25,10 @@ defaults:
       layout: "dashboard"
 
 minimal_mistakes_skin: "dark"
+
+header:
+  nav:
+    - title: "Customer Environments"
+      url: /
+    - title: "Internal Environments"
+      url: /internal/

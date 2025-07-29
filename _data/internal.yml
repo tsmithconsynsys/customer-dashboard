@@ -1,5 +1,5 @@
 groups:
-  - name: Alphinity
+  - name: Stage
     tiles:
       - title: ProCaaSo
         url: https://acme.staging.com
@@ -11,10 +11,10 @@ groups:
         url: https://acme.prod.com
         desc: Monitoring
       - title: AWS
-        url: https://d-926761a594.awsapps.com/start
-        desc: aws account 161718427513
+        url: https://d-926761a594.awsapps.com/start.awsapps.com
+        desc: AWS-751686371540
 
-  - name: Aquasyn
+  - name: RC
     tiles:
       - title: ProCaaSo
         url: https://acme.staging.com
@@ -26,10 +26,10 @@ groups:
         url: https://acme.prod.com
         desc: Monitoring
       - title: AWS
-        url: https://d-926761a594.awsapps.com/start
-        desc: aws account 614591274212
+        url: https://d-926761a594.awsapps.com/start.awsapps.com
+        desc: AWS-863786583075
 
-  - name: Calmoseptine
+  - name: Trial
     tiles:
       - title: ProCaaSo
         url: https://acme.staging.com
@@ -41,5 +41,20 @@ groups:
         url: https://acme.prod.com
         desc: Monitoring
       - title: AWS
-        url: https://d-926761a594.awsapps.com/start
-        desc: aws account 381491841611
+        url: https://d-926761a594.awsapps.com/start.awsapps.com
+        desc: AWS-211125376178
+
+  - name: PharmaGenBio
+    tiles:
+      - title: ProCaaSo
+        url: https://acme.staging.com
+        desc: ProCaaSo
+      - title: Opensearch
+        url: https://acme.prod.com
+        desc: Opensearch logging
+      - title: Sisyphus
+        url: https://acme.prod.com
+        desc: Monitoring
+      - title: AWS
+        url: https://d-926761a594.awsapps.com/start.awsapps.com
+        desc: AWS-088977449307
