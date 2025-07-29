@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Internal Environments"
 excerpt: "Access internal tools and environments"
 permalink: /internal/

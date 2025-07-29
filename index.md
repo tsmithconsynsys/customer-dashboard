@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Customer Environments"
 excerpt: "Access customer tools and dashboards"
 permalink: /
