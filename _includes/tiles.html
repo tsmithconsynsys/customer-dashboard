@@ -1,13 +1,8 @@
----
-layout: default
----
-
-{% include page__hero.html %}
+{% assign data_file = page.data_file | default: 'customers' %}
+{% assign groups = site.data[data_file].groups %}
 
 <div class="page__content">
     <div class="group-grid">
-        {% assign data_file = page.data_file | default: 'customers' %}
-        {% assign groups = site.data[data_file].groups %}
         {% for group in groups %}
         <div class="group-block">
             <h2 class="group-title">{{ group.name }}</h2>
