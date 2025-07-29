@@ -1,27 +1,36 @@
 groups:
-  - name: Acme Co
+  - name: Alphinity
     tiles:
-      - title: Staging
+      - title: ProCaaSo
         url: https://acme.staging.com
-        desc: Staging environment
-      - title: Production
+        desc: ProCaaSo
+      - title: Opensearch
         url: https://acme.prod.com
-        desc: Production environment
+        desc: Opensearch logging
+      - title: Sisyphpus
+        url: https://acme.prod.com
+        desc: Monitoring
 
-  - name: Beta Inc
+  - name: Aquasyn
     tiles:
-      - title: Dev
-        url: https://beta.dev.com
-        desc: Development environment
-      - title: Prod
-        url: https://beta.prod.com
-        desc: Production environment
+      - title: ProCaaSo
+        url: https://acme.staging.com
+        desc: ProCaaSo
+      - title: Opensearch
+        url: https://acme.prod.com
+        desc: Opensearch logging
+      - title: Sisyphpus
+        url: https://acme.prod.com
+        desc: Monitoring
 
-  - name: Gamma Labs
+  - name: Calmoseptine
     tiles:
-      - title: Dashboard
-        url: https://gamma.dashboard.com
-        desc: Main interface
-      - title: API
-        url: https://gamma.api.com
-        desc: API Explorer
+      - title: ProCaaSo
+        url: https://acme.staging.com
+        desc: ProCaaSo
+      - title: Opensearch
+        url: https://acme.prod.com
+        desc: Opensearch logging
+      - title: Sisyphpus
+        url: https://acme.prod.com
+        desc: Monitoring
