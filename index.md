@@ -1,5 +1,7 @@
 ---
 layout: dashboard
-title: ConSynSys Environments Dashboard
+title: ""
+header:
+  show_title: false
 permalink: /
 ---
