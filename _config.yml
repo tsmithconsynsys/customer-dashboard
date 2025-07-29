@@ -23,7 +23,5 @@ defaults:
       path: ""
     values:
       layout: "default"
-      header:
-        nav: navigation
-
+      
 minimal_mistakes_skin: "dark"
