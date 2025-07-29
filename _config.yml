@@ -23,7 +23,8 @@ defaults:
       path: ""
     values:
       layout: "dashboard"
-      header:
-        nav: navigation
+
+header:
+  nav: navigation
 
 minimal_mistakes_skin: "dark"
