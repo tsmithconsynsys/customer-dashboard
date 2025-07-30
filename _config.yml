@@ -17,6 +17,7 @@ show_sidebar: true
 
 sidebar:
   nav: "navigation"
+  width: "150px"
 
 # Optional: Custom collections (not needed for this use case)
 # collections:
