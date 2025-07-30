@@ -13,6 +13,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
+enable_header_nav: true
+
 header:
   nav: "navigation"
   
@@ -31,7 +33,6 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
       header:
         nav: "navigation"
       
