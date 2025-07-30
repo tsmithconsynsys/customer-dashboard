@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 classes: wide
 title: "Customer Environments"
 excerpt: "Access customer tools and dashboards"

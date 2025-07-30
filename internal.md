@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 classes: wide
 title: "Internal Environments"
 excerpt: "Access internal tools and environments"
