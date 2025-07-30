@@ -16,17 +16,25 @@ sidebar:
 
 <style>
   .sidebar__right {
-    width: 150px !important;
-    padding: 0.5rem 0.75rem !important;
+    width: 100px !important;
+    padding: 0.25rem 0.5rem !important;
   }
 
   .sidebar__right .nav__list .nav__item a {
-    font-size: 0.75rem !important;
-    padding: 0.25rem 0.5rem !important;
+    font-size: 0.65rem !important;
+    padding: 0.15rem 0.25rem !important;
   }
-  
+
+  .nav__list .nav__item {
+    border-bottom: none !important;
+  }
+
   .layout--single .page {
-    margin-left: 150px !important;
+    margin-left: 100px !important;
+  }
+
+  .page__title {
+    text-align: center;
   }
 </style>
 
