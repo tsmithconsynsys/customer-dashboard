@@ -9,6 +9,8 @@ header:
   overlay: false
   show_overlay_excerpt: false
   nav: "navigation"
+sidebar:
+  nav: "navigation"
 ---
 
 {% include tiles.html %}
