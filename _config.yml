@@ -13,11 +13,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-show_sidebar: true
-
-sidebar:
+header:
   nav: "navigation"
-  width: "50px"
+  
+#show_sidebar: true
+
+#sidebar:
+#  nav: "navigation"
+#  width: "50px"
 
 # Optional: Custom collections (not needed for this use case)
 # collections:
