@@ -14,4 +14,14 @@ sidebar:
   nav: "navigation"
 ---
 
+style>
+  .sidebar__right {
+    width: 150px !important;
+  }
+
+  .layout--single .page {
+    margin-left: 150px !important;
+  }
+</style>
+
 {% include tiles.html %}
