@@ -17,8 +17,14 @@ sidebar:
 <style>
   .sidebar__right {
     width: 150px !important;
+    padding: 0.5rem 0.75rem !important;
   }
 
+  .sidebar__right .nav__list .nav__item a {
+    font-size: 0.75rem !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+  
   .layout--single .page {
     margin-left: 150px !important;
   }
