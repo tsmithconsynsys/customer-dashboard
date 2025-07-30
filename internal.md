@@ -14,7 +14,7 @@ sidebar:
   nav: "navigation"
 ---
 
-style>
+<style>
   .sidebar__right {
     width: 150px !important;
   }
