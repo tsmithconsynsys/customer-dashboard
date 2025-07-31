@@ -13,10 +13,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-enable_header_nav: true
+# enable_header_nav: true
 
-header:
-  nav: "navigation"
+# header:
+#   nav: "navigation"
 
 minimal_mistakes_skin: "dark"
 
