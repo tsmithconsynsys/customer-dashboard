@@ -1,7 +1,7 @@
 main:
-  - title: "Customer Environments"
+  - title: "Customer"
     url: /
-  - title: "Internal Environments"
+  - title: "Internal"
     url: /internal/
   - title: "ConSynSys"
     url: https://consynsys.com/

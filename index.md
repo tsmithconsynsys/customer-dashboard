@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Customer Environments"
+title: "Customers"
 excerpt: "Access customer tools and dashboards"
 permalink: /
 data_file: customers

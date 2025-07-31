@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Internal Environments"
+title: "Internal"
 excerpt: "Access internal tools and environments"
 permalink: /internal/
 data_file: internal
