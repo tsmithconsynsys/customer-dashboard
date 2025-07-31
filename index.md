@@ -19,3 +19,4 @@ sidebar:
 </style>
 
 {% include tiles.html %}
+{{ site.data.navigation | jsonify }}
