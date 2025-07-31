@@ -1,3 +1,4 @@
+logo: "/assets/images/consynsys.svg"
 title: ConSynSys Environment Dashboard
 description: Centralized dashboard for accessing customer environments.
 baseurl: "/customer-dashboard"
@@ -9,4 +10,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "dark"
