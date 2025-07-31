@@ -20,11 +20,11 @@ header:
 
 minimal_mistakes_skin: "dark"
 
-show_sidebar: true
+# show_sidebar: true
 
-sidebar:
-  nav: "navigation"
-  width: "50px"
+# sidebar:
+#   nav: "navigation"
+#   width: "50px"
 
 # Optional: Custom collections (not needed for this use case)
 # collections:
