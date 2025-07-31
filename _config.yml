@@ -10,4 +10,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
-logo: "/assets/images/edgecompute.png"
+logo: "/assets/images/consynsys.png"
