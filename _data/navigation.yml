@@ -1,4 +1,11 @@
-- title: "Customer Environments"
-  url: /
-- title: "Internal Environments"
-  url: /internal/
+main:
+  - title: "Customer Environments"
+    url: /
+  - title: "Internal Environments"
+    url: /internal/
+
+sidebar:
+  - title: "Customer Environments"
+    url: /
+  - title: "Internal Environments"
+    url: /internal/
