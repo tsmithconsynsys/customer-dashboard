@@ -17,7 +17,9 @@ enable_header_nav: true
 
 header:
   nav: "navigation_links"
-  
+
+minimal_mistakes_skin: "dark"
+
 #show_sidebar: true
 
 #sidebar:
