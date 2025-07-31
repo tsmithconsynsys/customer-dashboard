@@ -3,5 +3,7 @@ main:
     url: /
   - title: "Internal"
     url: /internal/
+  - title: "Azure Wiki"
+    url: https://dev.azure.com
   - title: "ConSynSys"
     url: https://consynsys.com/
