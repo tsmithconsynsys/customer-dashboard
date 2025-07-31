@@ -2,31 +2,11 @@ title: ConSynSys Environment Dashboard
 description: Centralized dashboard for accessing customer environments.
 baseurl: "/customer-dashboard"
 url: "https://tsmithconsynsys.github.io"
-
-# Use GitHub Pages supported theme via remote_theme
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
-
-# enable_header_nav: true
-
-# header:
-#   nav: "navigation"
-
 minimal_mistakes_skin: "dark"
-
-# show_sidebar: true
-
-# sidebar:
-#   nav: "navigation"
-#   width: "50px"
-
-# Optional: Custom collections (not needed for this use case)
-# collections:
-#   customers:
-#     output: true
