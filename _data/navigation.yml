@@ -5,5 +5,7 @@ main:
     url: /internal/
   - title: "Azure Wiki"
     url: https://dev.azure.com
+    target: blank
   - title: "ConSynSys"
     url: https://consynsys.com/
+    target: blank
