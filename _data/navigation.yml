@@ -1,11 +1,15 @@
 main:
   - title: "Customer"
     url: /
+    description: "Customer Environments"
   - title: "Internal"
     url: /internal/
+    description: "ConSynSys Internal Environments"
   - title: "Azure Wiki"
     url: https://dev.azure.com
+    description: "Wiki for documentation"
     target: blank
   - title: "ConSynSys"
     url: https://consynsys.com/
+    description: "ConSynSys primary website"
     target: blank
