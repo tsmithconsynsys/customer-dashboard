@@ -1,6 +1,6 @@
 title: ConSynSys Environment Dashboard
 description: Centralized dashboard for accessing customer environments.
-baseurl: "/customer-dashboard" # change to "" if your repo is named <username>.github.io
+baseurl: "/customer-dashboard"
 url: "https://tsmithconsynsys.github.io"
 
 # Use GitHub Pages supported theme via remote_theme
@@ -13,7 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-enable_header_nav: true
+#enable_header_nav: true
 
 header:
   nav: "navigation"
