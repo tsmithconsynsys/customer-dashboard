@@ -15,8 +15,8 @@ plugins:
 
 enable_header_nav: true
 
-header:
-  nav: "navigation"
+#header:
+#  nav: "navigation"
 
 minimal_mistakes_skin: "dark"
 
@@ -30,3 +30,9 @@ minimal_mistakes_skin: "dark"
 # collections:
 #   customers:
 #     output: true
+
+navigation:
+  - title: "Customer Environments"
+    url: /
+  - title: "Internal Environments"
+    url: /internal/
