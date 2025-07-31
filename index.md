@@ -6,6 +6,8 @@ excerpt: "Access customer tools and dashboards"
 permalink: /
 data_file: customers
 show_title: false
+header:
+  nav: "navigation"
 sidebar:
   nav: "navigation"
 ---
