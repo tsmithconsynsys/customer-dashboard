@@ -6,9 +6,6 @@ excerpt: "Access customer tools and dashboards"
 permalink: /
 data_file: customers
 show_title: false
-sidebar:
-  nav: "docs"
 ---
 
 {% include tiles.html %}
-{{ site.data.navigation | jsonify }}

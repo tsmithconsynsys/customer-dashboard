@@ -8,10 +8,4 @@ data_file: internal
 show_title: false
 ---
 
-<style>
-  .page__title {
-    text-align: center;
-  }
-</style>
-
 {% include tiles.html %}
