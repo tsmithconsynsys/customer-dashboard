@@ -16,7 +16,7 @@ plugins:
 enable_header_nav: true
 
 header:
-  nav: "navigation"
+  nav: "navigation_links"
   
 #show_sidebar: true
 
@@ -28,12 +28,3 @@ header:
 # collections:
 #   customers:
 #     output: true
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      header:
-        nav: "navigation"
-      
-minimal_mistakes_skin: "dark"
