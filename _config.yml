@@ -15,24 +15,18 @@ plugins:
 
 enable_header_nav: true
 
-#header:
-#  nav: "navigation"
+header:
+  nav: "navigation"
 
 minimal_mistakes_skin: "dark"
 
-#show_sidebar: true
+show_sidebar: true
 
-#sidebar:
-#  nav: "navigation"
-#  width: "50px"
+sidebar:
+  nav: "navigation"
+  width: "50px"
 
 # Optional: Custom collections (not needed for this use case)
 # collections:
 #   customers:
 #     output: true
-
-navigation:
-  - title: "Customer Environments"
-    url: /
-  - title: "Internal Environments"
-    url: /internal/
