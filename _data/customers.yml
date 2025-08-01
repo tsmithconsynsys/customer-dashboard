@@ -2,13 +2,13 @@ groups:
   - name: Alphinity
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://alphinity.paracloud.ai
         desc: ProCaaSo Login
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.alphinity.paracloud.ai
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisyphus.alphinity.paracloud.ai
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start
@@ -17,13 +17,13 @@ groups:
   - name: Aquasyn
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://auasyn.procaaso.io
         desc: ProCaaSo Login
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.auasyn.procaaso.io
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisyphus.auasyn.procaaso.io
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start
@@ -32,13 +32,13 @@ groups:
   - name: Calmoseptine
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://calmoseptine.procaaso.io
         desc: ProCaaSo
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.calmoseptine.procaaso.io
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisphus.calmoseptine.procaaso.io
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start

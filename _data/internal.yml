@@ -2,13 +2,13 @@ groups:
   - name: Stage
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://stage.dev.paracloud.ai
         desc: ProCaaSo Login
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.stage.dev.paracloud.ai
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisyphus.stage.dev.paracloud.ai
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start.awsapps.com
@@ -17,13 +17,13 @@ groups:
   - name: RC
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://rc.procaaso.net
         desc: ProCaaSo Login
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.rc.procaaso.net
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisyphus.rc.procaaso.net
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start.awsapps.com
@@ -32,13 +32,13 @@ groups:
   - name: Trial
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://trial.procaaso.io
         desc: ProCaaSo
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.trial.procaaso.io
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisyphus.trial.procaaso.io
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start.awsapps.com
@@ -47,13 +47,13 @@ groups:
   - name: PharmaGenBio
     tiles:
       - title: ProCaaSo
-        url: https://acme.staging.com
+        url: https://pharmagenbio.procaaso.io
         desc: ProCaaSo
       - title: Opensearch
-        url: https://acme.prod.com
+        url: https://opensearch.pharmagenbio.procaaso.io
         desc: Opensearch logging
       - title: Sisyphus
-        url: https://acme.prod.com
+        url: https://sisyphus.pharmagenbio.procaaso.io
         desc: Monitoring
       - title: AWS
         url: https://d-926761a594.awsapps.com/start.awsapps.com
